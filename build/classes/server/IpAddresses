@@ -1,0 +1,4 @@
+script for local IP:
+ip route get 8.8.8.8 | awk '{print $NF; exit}'
+
+192.168.1.118
